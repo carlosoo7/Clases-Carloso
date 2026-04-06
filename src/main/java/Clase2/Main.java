@@ -20,6 +20,8 @@ public class Main {
         notas3[0][2]=30;
         notas3[0][3]=40;
 
+
+
         String[] notas4 = new String[5]; //array de String
         notas4[0] = "a";
 
@@ -32,11 +34,24 @@ public class Main {
             }
         }
 
+        //FOR EACH
+
+        for(String num:notas4) {
+            System.out.println(num);
+        }
 
 
+        for(int[] num: notas3) { // recorrido 1 num = {1, 2, 3}
+            for(int i: num) {
+                System.out.println(i);
+            }
+        }
 
-
-
-
+        //Ejemplo manejo de error pocicion fuera del array // ArrayIndexOutOfBounds
+        try{
+            System.out.println(notas2[10]);
+        }catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("Error valor de indice muy alto");
+        }
     }
 }
