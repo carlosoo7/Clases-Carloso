@@ -20,16 +20,23 @@ public class Main {
         notas3[0][2]=30;
         notas3[0][3]=40;
 
-        String[] notas4 = new String[5];
+        String[] notas4 = new String[5]; //array de String
         notas4[0] = "a";
 
         for (int i = 0; i < notas4.length; i++) {
             System.out.println(notas4[i]); //da null las pociciones vacias
         }
-        for(int i = 0; i < notas3.length; i++) {
+        for(int i = 0; i < notas3.length; i++) {  //for dentro de for para array matris
             for(int j = 0; j < notas3.length; j++) {
                 System.out.println(notas3[i][j]); //da 0 las pociciones vacias
             }
         }
+
+
+
+
+
+
+
     }
 }
