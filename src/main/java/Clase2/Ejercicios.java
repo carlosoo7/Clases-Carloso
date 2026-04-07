@@ -66,6 +66,6 @@ public class Ejercicios {
         //  NombreSeparado[1] = Tabares
 
 
-
+        //EL QUE LEE ES GAY
 
 }
