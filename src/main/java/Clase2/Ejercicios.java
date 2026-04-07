@@ -64,6 +64,6 @@ public class Ejercicios {
         //  String[] NombresSeparado = new String[1];
         //  NombreSeparado[0] = Andres
         //  NombreSeparado[1] = Tabares
-    
+
 
 }
