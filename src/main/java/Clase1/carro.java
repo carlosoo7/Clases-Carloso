@@ -1,13 +1,13 @@
 package Clase1;
 
-public class carro {
+ public class carro {
+
     int llanta;
     int Sillas;
-    String color;
+    public String color;
 
 
-
-    carro(int llanta, int sillas, String color) {
+    public carro(int llanta, int sillas, String color) {
 
         this.llanta = llanta;
         this.Sillas = sillas;
@@ -16,7 +16,7 @@ public class carro {
     }
 
 
-    String Informacion (){
+    public String Informacion (){
         String informacion ="El carro tiene " + llanta+ " llantas y tiene  "+ Sillas + " Sillas de color " + color;
         return informacion;
     }
